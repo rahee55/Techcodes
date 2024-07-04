@@ -1,0 +1,467 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+nav{
+    width: 100%;
+   padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    display: flex;
+}
+.logo{
+    width: 32px;
+    height: 32px;
+    padding: 5px 0px 0px 10px;
+}
+span{
+    font-size: 1.2rem;
+    padding-top: 6px;
+}
+.menu{
+    width: 273px;
+    padding-top: 13px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu ul li{
+    margin:0px 10px 0px 10px;
+    cursor: pointer;
+    color: rgb(128, 125, 125);
+}
+.menu ul li:hover{
+    color: black;
+}
+.search input{
+    width: 225px;
+    height: 45px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.sbtn input{
+    width: 100px;
+    height: 45px;
+    border-radius: 5px;
+    margin:0px 5px;
+    cursor: pointer;
+    background-color: white;
+    border-color: rgb(11, 170, 11);
+}
+.sbtn input:hover{
+    background-color: rgb(11, 170, 11);
+}
+.sbtn input:active{
+    border-color:rgb(11, 170, 11) ;
+}
+.topd{
+    width: 100%;
+    display: flex;
+}
+.top{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tdpic{
+    width: 50%;
+    text-align: center;
+}
+.td{
+    color: #FF725E;
+    margin-bottom: 10px;
+}
+.top input {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: white;
+}
+.top input:hover{
+    color: white;
+    background-color: rgb(15, 14, 14);
+}
+.tdpic img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tdp {
+    color: rgb(128, 125, 125);
+}
+.baar{
+    display: none;
+}
+.nav1{
+    display: none;
+}
+.project{
+    display: flex;
+    justify-content: space-between;
+    padding: 3em;
+    background-color:#F8F9FA;
+}
+.pro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: justify;
+}
+.prop{
+    margin-top: 15px;
+    text-align: center;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: rgb(33, 37, 41);
+}
+.staff{
+    width: 50%;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+.staf{
+    width: 100%;
+    display: flex;
+}
+.pros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: justify;
+    background-color:#F8F9FA;
+    margin: 10px;
+    border-radius: 10px;
+}
+.create{
+    display: flex;
+    padding: 3em;
+}
+.cre{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.cre a{
+    color: #FF725E;
+}
+.cre a{
+    color: #FF725E;
+    margin: 10px;
+}
+.cre a:hover{
+    color: blue;
+}
+.crpic{
+    width: 50%;
+}
+.crpic a img{
+    font-size: 15px;
+}
+.tds{
+    text-align: center;
+    font-size: 44px;
+    padding: 40px;
+}
+.clients{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.clientpic img{
+    width: 13em;
+    height: 13em;
+    overflow: hidden;
+    border-radius: 15em;
+    margin-left: 11px;
+}
+.clientcard{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    flex-direction: column;
+    background-color:#F8F9FA ;
+    border-radius: 5px;
+}
+.cld{
+    width: 15em;
+    text-align: center;
+}
+.props{
+    width: 60%;
+    text-align: center;
+}
+.ourprojects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ourproject{
+    display: flex;
+    margin-top: 20px;
+}
+.ourpro img{
+    width: 14em; 
+}
+.prort{
+    width: 18em;
+    text-align: justify;
+    color: #FF725E;
+    padding-left: 20px;
+}
+.prepro{
+    padding-top: 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.prot{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.conts a{
+    color: #FF725E;
+    text-align: center;
+    padding-left:20px;
+}
+.resp{
+    width: 100%;
+    height: 300px;
+    background-color: #D85B53;
+    display: flex;
+    margin-top: 7em;
+    justify-content: space-evenly;
+}
+.effi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.effi a{
+    color: white;
+    margin-top: 10px;
+}
+.ifibtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ifibtn input{
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    height: 5em;
+    width: 17em;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.foot{
+    display: flex;
+    margin: 2em 0em 2em 0em;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.social img{
+    width: 20px;
+}
+.about{
+    width: 18em;
+    margin: 1.5em 0em 1.5em 0em;
+}
+.proto{
+    text-align: justify;
+    margin: 3em 0em 4em 0em;
+}
+.prto{
+    margin-top: 2em;
+}
+ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+ul li a{
+    color: #FF725E;
+}
+footer{
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+@media screen and (max-width:767px) and (min-width:551px){
+    .topd{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu{
+        display: none;
+    }
+    .sbtn{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    .baar{
+        display: block;
+        padding:6px 12px 0px 0px;
+    }
+    nav{
+       display: none;
+    }
+    .nav1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .topd{
+        padding: 3em  0em 3em 0em!important;
+    }
+    .tdpic{
+        width: 70%;
+    }
+    .top{
+        width: 60%;
+    }
+    .td{
+        margin-top: 50px;
+        padding-top: 30px;
+        text-align: center;
+    }
+    .project{
+        flex-direction: column;
+    }
+    .pro{
+        padding:30px;
+        margin:0px 60px 0px 60px ;
+    }
+    .staf{
+        display: block;
+    }
+    .staff{
+        width: 70%;
+    }
+    .pros{
+        margin-top: 30px;
+    }
+    .create{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cre{
+        width: 100%;
+    }
+    .crpic{
+        width: 100%;
+    }
+    .clientcard{
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .topd{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu{
+        display: none;
+    }
+    .sbtn{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    .baar{
+        display: block;
+        padding:6px 12px 0px 0px;
+    }
+    nav{
+        display: none;
+    }
+    .nav1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .topd{
+        padding: 3em  0em 3em 0em!important;
+    }
+    .tdpic{
+        width: 70%;
+    }
+    .top{
+        width: 60%;
+    }
+    .td{
+        margin-top: 50px;
+        padding-top: 30px;
+        text-align: center;
+    }
+    .project{
+        flex-direction: column;
+    }
+    .pro{
+        padding:30px;
+    }
+    .staf{
+        display: block;
+    }
+    .staff{
+        width: 80%;
+    }
+    .pros{
+        margin-top: 30px;
+    }
+    .create{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cre{
+        width: 100%;
+    }
+    .crpic{
+        width: 100%;
+    }
+    .clientcard{
+        margin-top: 40px;
+    }
+    .ourpro img{
+        width: 8em;
+        height: 8em;
+    }
+    .prort{
+        width: 11em;
+    }
+    .resp{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    .ifibtn{
+        margin-top: 2em;
+        margin-bottom: 1.5em;
+    }
+    .effi{
+        margin-top: 1.5em;
+    }
+}
